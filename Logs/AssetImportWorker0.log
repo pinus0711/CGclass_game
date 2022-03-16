@@ -1,0 +1,723 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ko' Physical Memory: 7986 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityProject/StageGun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55761
+Successfully changed project path to: C:/UnityProject/StageGun
+C:/UnityProject/StageGun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProject/StageGun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     3993 MB
+    Driver:   25.20.100.6325
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003564 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3231ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1815ms)
+		BeginReloadAssembly (305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.8 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 6.469500 ms (FindLiveObjects: 0.471100 ms CreateObjectMapping: 0.199400 ms MarkObjects: 5.175000 ms  DeleteObjects: 0.620600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/GameResult.cs
+  artifactKey: Guid(35ca3fc94371e8d41b80346e2f3a6bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResult.cs using Guid(35ca3fc94371e8d41b80346e2f3a6bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c17b3015d719a64cdc186b69676c5c') in 0.114247 seconds 
+  Import took 0.122924 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4845ms)
+		BeginReloadAssembly (384ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (4240ms)
+			LoadAssemblies (377ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1422ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (1580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (283ms)
+				ProcessInitializeOnLoadAttributes (1159ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 13.609200 ms (FindLiveObjects: 0.965600 ms CreateObjectMapping: 0.404500 ms MarkObjects: 11.251500 ms  DeleteObjects: 0.983100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 687.696094 seconds.
+  path: Assets/GameResult.cs
+  artifactKey: Guid(35ca3fc94371e8d41b80346e2f3a6bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResult.cs using Guid(35ca3fc94371e8d41b80346e2f3a6bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b691792c3f72d8b24df71d4b80487fa') in 0.020526 seconds 
+  Import took 0.037358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1099.089039 seconds.
+  path: Assets/Action RPG Music 1.3/01Town0.wav
+  artifactKey: Guid(013251c2b047f564ba21cb7da2daf341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/01Town0.wav using Guid(013251c2b047f564ba21cb7da2daf341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ac90d9d1f097b7e4692d575debd9a2') in 0.589220 seconds 
+  Import took 0.605923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001111 seconds.
+  path: Assets/Action RPG Music 1.3/05cave1.wav
+  artifactKey: Guid(c9db73d1a6ceb2043b319ee28ea3d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/05cave1.wav using Guid(c9db73d1a6ceb2043b319ee28ea3d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d2d25a29c04c5e61050d3574c800b5') in 0.096752 seconds 
+  Import took 0.118857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/Action RPG Music 1.3/01town2.wav
+  artifactKey: Guid(18fa7f85faaee95408b6f749a5990a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/01town2.wav using Guid(18fa7f85faaee95408b6f749a5990a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821627241e41d25e0a1f9926655fc4f5') in 0.102236 seconds 
+  Import took 0.118951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Action RPG Music 1.3/04forest5.wav
+  artifactKey: Guid(b25699b930ca8f24c8bb73149eec0615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/04forest5.wav using Guid(b25699b930ca8f24c8bb73149eec0615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11734839fe5541d937c96f4b3ddaf34d') in 0.046346 seconds 
+  Import took 0.060617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Action RPG Music 1.3/09battle8.wav
+  artifactKey: Guid(b5eeef0b353a9334bab458724e62e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/09battle8.wav using Guid(b5eeef0b353a9334bab458724e62e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ecf775c3a669ddb892fbadfdd387c1') in 0.045509 seconds 
+  Import took 0.053546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Action RPG Music 1.3/08travel1.wav
+  artifactKey: Guid(cc62eead172ce2a4bbefbde66119962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/08travel1.wav using Guid(cc62eead172ce2a4bbefbde66119962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941d4ed628bcedf71736aae13800bf5d') in 0.047122 seconds 
+  Import took 0.053678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/Action RPG Music 1.3/07island1v1.wav
+  artifactKey: Guid(d85d3899973eab1429ba88aeea28a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/07island1v1.wav using Guid(d85d3899973eab1429ba88aeea28a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73865e0ca3eee57341d9cc762b6a5731') in 0.043854 seconds 
+  Import took 0.057287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Action RPG Music 1.3/01town4.wav
+  artifactKey: Guid(1c839fa2a535b1e4585c2731d565dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/01town4.wav using Guid(1c839fa2a535b1e4585c2731d565dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766be32222b18035575a31db790d8183') in 0.044838 seconds 
+  Import took 0.053112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Action RPG Music 1.3/01town1.wav
+  artifactKey: Guid(c96867f6777a7814a8683df6eca37afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/01town1.wav using Guid(c96867f6777a7814a8683df6eca37afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ec808714dcf17831870c5cfb4e7444') in 0.047413 seconds 
+  Import took 0.053243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Action RPG Music 1.3/02store1.wav
+  artifactKey: Guid(c630ba7ffa7abe44993cb696c3609d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/02store1.wav using Guid(c630ba7ffa7abe44993cb696c3609d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e8099f2a5f04d70889fad78e3604ae') in 0.048102 seconds 
+  Import took 0.058787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Action RPG Music 1.3/04forest1.wav
+  artifactKey: Guid(c7f9f1e62b73d6744ad4020ed1ef0e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/04forest1.wav using Guid(c7f9f1e62b73d6744ad4020ed1ef0e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db407a57a131a81735a617fc172fd97') in 0.047999 seconds 
+  Import took 0.058006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/Action RPG Music 1.3/04forest2.wav
+  artifactKey: Guid(24dc1269b3eeb7e42aa8ca43ee57c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/04forest2.wav using Guid(24dc1269b3eeb7e42aa8ca43ee57c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04c53706024fa7f5dcb494878b5dcba') in 0.067091 seconds 
+  Import took 0.077770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Action RPG Music 1.3/10credits1.wav
+  artifactKey: Guid(db1c93a6efe2c6f45923fd4641074569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/10credits1.wav using Guid(db1c93a6efe2c6f45923fd4641074569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29b0d1f1ad5afab6b8f8583a363914b') in 0.064151 seconds 
+  Import took 0.077260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Action RPG Music 1.3/05cave3.wav
+  artifactKey: Guid(509b714987751894ea3ae2ac980e7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/05cave3.wav using Guid(509b714987751894ea3ae2ac980e7304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013dd08042aa25d87fde1bfcfbfeb9b8') in 0.060916 seconds 
+  Import took 0.071021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Action RPG Music 1.3/03bar2NL.wav
+  artifactKey: Guid(8a50e225aad37e447bf344f9d88f4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/03bar2NL.wav using Guid(8a50e225aad37e447bf344f9d88f4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7db3a38b943a4e3d858400c9801412') in 0.060095 seconds 
+  Import took 0.075581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Action RPG Music 1.3/08travel4.wav
+  artifactKey: Guid(d24eb19ed729d334da51e43188bd185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/08travel4.wav using Guid(d24eb19ed729d334da51e43188bd185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24f746e8d01af45af05553f2375d1a2') in 0.052247 seconds 
+  Import took 0.064561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001439 seconds.
+  path: Assets/Action RPG Music 1.3/11minigame1.wav
+  artifactKey: Guid(968f5db6df9e1454497748f5250ef7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/11minigame1.wav using Guid(968f5db6df9e1454497748f5250ef7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3656b8bc151ec8d50abb003d039ece94') in 0.050767 seconds 
+  Import took 0.058913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Action RPG Music 1.3/09battle3.wav
+  artifactKey: Guid(1c5047b50b799cc4e82f6cf09039ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/09battle3.wav using Guid(1c5047b50b799cc4e82f6cf09039ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cf44dcca0eaef08b0f0e278dde88bd') in 0.049122 seconds 
+  Import took 0.062285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Action RPG Music 1.3/07island1v2.wav
+  artifactKey: Guid(15ac5489406ebc34e9e090123e319c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/07island1v2.wav using Guid(15ac5489406ebc34e9e090123e319c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75759c3f493a0b88ff13e71ad1710c44') in 0.054022 seconds 
+  Import took 0.066120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Action RPG Music 1.3/02store2.wav
+  artifactKey: Guid(5598b10f4202cfb4fb4f51698069ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/02store2.wav using Guid(5598b10f4202cfb4fb4f51698069ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf8719cce18b287637f7927c5ef2ce7') in 0.056775 seconds 
+  Import took 0.072359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Action RPG Music 1.3/03bar1.wav
+  artifactKey: Guid(c4cec0291a10dc64d8d27f015f6bffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/03bar1.wav using Guid(c4cec0291a10dc64d8d27f015f6bffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f273476ddf8f97391a8cbf248f4a86') in 0.049659 seconds 
+  Import took 0.059502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Action RPG Music 1.3/06castle1.wav
+  artifactKey: Guid(ceb5e78582a3efd4fb9a6b33f2d35618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/06castle1.wav using Guid(ceb5e78582a3efd4fb9a6b33f2d35618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b903c1782618bb7c3cd69a1730cb2114') in 0.054689 seconds 
+  Import took 0.066909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Action RPG Music 1.3/08sail1.wav
+  artifactKey: Guid(cf8a8dc92b626a948bf924f3acc59c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/08sail1.wav using Guid(cf8a8dc92b626a948bf924f3acc59c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb131e06d54ffe1d8f40fb53971c918') in 0.048810 seconds 
+  Import took 0.059917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Action RPG Music 1.3/04forest6.wav
+  artifactKey: Guid(0ebb992e4ba08a94abc9bc5899959781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/04forest6.wav using Guid(0ebb992e4ba08a94abc9bc5899959781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e3f747b7a82840de85eed10e1f5665') in 0.051043 seconds 
+  Import took 0.060443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Action RPG Music 1.3/04forest3.wav
+  artifactKey: Guid(650b03d44ee487c499da93c2c40bca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/04forest3.wav using Guid(650b03d44ee487c499da93c2c40bca17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb520fe7aedbc12cf24a11dce2ac0f5d') in 0.052087 seconds 
+  Import took 0.059487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Action RPG Music 1.3/08travel2.wav
+  artifactKey: Guid(ea4d2622de682f7428253cca1618e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/08travel2.wav using Guid(ea4d2622de682f7428253cca1618e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb9de3f876a5dc82694f4eb91afe77') in 0.049971 seconds 
+  Import took 0.060787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Action RPG Music 1.3/06castle2.wav
+  artifactKey: Guid(27ae589d4af618948ad65f4a5f4215f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/06castle2.wav using Guid(27ae589d4af618948ad65f4a5f4215f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ed18fad8a3446f8f7c645c45e72d6') in 0.041021 seconds 
+  Import took 0.047689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Action RPG Music 1.3/07island2.wav
+  artifactKey: Guid(cf62450d7e35f6e46af6204a4d379f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/07island2.wav using Guid(cf62450d7e35f6e46af6204a4d379f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd206f5b9ee6fd40fc306bd4fa3e26eff') in 0.060899 seconds 
+  Import took 0.072195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001426 seconds.
+  path: Assets/Action RPG Music 1.3/09battle2.wav
+  artifactKey: Guid(c7bd3f612533f8d44bcf1fbec5300b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/09battle2.wav using Guid(c7bd3f612533f8d44bcf1fbec5300b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462b0f0013fa5b63cb2196ab04dd9809') in 0.152578 seconds 
+  Import took 0.171439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.898564 seconds.
+  path: Assets/Action RPG Music 1.3/12win1NL.wav
+  artifactKey: Guid(fd6904045c8e41949ab272ce8c3b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/12win1NL.wav using Guid(fd6904045c8e41949ab272ce8c3b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f7100e2f06d8a1f1c4a641e3223d3e') in 0.086637 seconds 
+  Import took 0.105789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001576 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover1V2NL.wav
+  artifactKey: Guid(9a46a92e69e83fa4cb19758be5497575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover1V2NL.wav using Guid(9a46a92e69e83fa4cb19758be5497575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d123fb08be351b25df956c61030466') in 0.079309 seconds 
+  Import took 0.091609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001030 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover9NL.wav
+  artifactKey: Guid(3ac6f6f3c364dd142b409789ed72cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover9NL.wav using Guid(3ac6f6f3c364dd142b409789ed72cedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd063ccc61d04ee8b30526cd2062cefaa') in 0.075851 seconds 
+  Import took 0.094006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001061 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover5NL.wav
+  artifactKey: Guid(328f76fd378aa3d44aabd9cc3299887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover5NL.wav using Guid(328f76fd378aa3d44aabd9cc3299887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26470a3958522f4480665486f803aed5') in 0.088926 seconds 
+  Import took 0.106604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003923 seconds.
+  path: Assets/Action RPG Music 1.3/14doorNL.wav
+  artifactKey: Guid(50d66a89bc04b08469776171717573c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14doorNL.wav using Guid(50d66a89bc04b08469776171717573c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2597e08dd2bd35671a0f50acc22578b') in 0.050552 seconds 
+  Import took 0.063472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover3NL.wav
+  artifactKey: Guid(53cf359ba6723ed46bd1f96e7304cd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover3NL.wav using Guid(53cf359ba6723ed46bd1f96e7304cd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4c0b8603f69cae8e71a246f55a5507') in 0.040906 seconds 
+  Import took 0.053604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Action RPG Music 1.3/12win8NL.wav
+  artifactKey: Guid(3e330266602e1a34f9c9226acb49659a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/12win8NL.wav using Guid(3e330266602e1a34f9c9226acb49659a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7815612c1870f6176cdfd192b9b7cd') in 0.043719 seconds 
+  Import took 0.050203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover6NL.wav
+  artifactKey: Guid(951ee10c18100e04f9f56f159ef9b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover6NL.wav using Guid(951ee10c18100e04f9f56f159ef9b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9012818f5ead28736d1769e2a1c8f66') in 0.049221 seconds 
+  Import took 0.057164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover2NL.wav
+  artifactKey: Guid(10eac0b6a54af9f4d95a5abcb012f476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover2NL.wav using Guid(10eac0b6a54af9f4d95a5abcb012f476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65adfdb41407451dcb52106d640dbdb') in 0.052648 seconds 
+  Import took 0.064600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover8NL.wav
+  artifactKey: Guid(6c9f08c93a5296949bfc856c43a5479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover8NL.wav using Guid(6c9f08c93a5296949bfc856c43a5479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd0304d8d4a741846a9c5fb6190a98b') in 0.053164 seconds 
+  Import took 0.064646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover4NL.wav
+  artifactKey: Guid(546059281075e574984d4edba76a20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover4NL.wav using Guid(546059281075e574984d4edba76a20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81de32cf7b5ceb7481c1052f4b5d942') in 0.046490 seconds 
+  Import took 0.057910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000971 seconds.
+  path: Assets/Action RPG Music 1.3/12win5NL.wav
+  artifactKey: Guid(bbc9cd122808540408c4bd43fddd3810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/12win5NL.wav using Guid(bbc9cd122808540408c4bd43fddd3810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626491e9428b91ab35346e050b8e79ef') in 0.052947 seconds 
+  Import took 0.063899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001094 seconds.
+  path: Assets/Action RPG Music 1.3/12win2NL.wav
+  artifactKey: Guid(168647f9fee82e3438427a080e32aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/12win2NL.wav using Guid(168647f9fee82e3438427a080e32aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4ced25224b234f8fa74c350632d04') in 0.048779 seconds 
+  Import took 0.058192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Action RPG Music 1.3/13gameover1V1NL.wav
+  artifactKey: Guid(b48833ff7c0cc4e42b17ef1b20f9ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/13gameover1V1NL.wav using Guid(b48833ff7c0cc4e42b17ef1b20f9ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845ce18d130688655b4006a8c028c11c') in 0.048877 seconds 
+  Import took 0.060937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152159 seconds.
+  path: Assets/Action RPG Music 1.3/14entranceNL.wav
+  artifactKey: Guid(8cf4449f1f1883345a8dab6eab4db240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14entranceNL.wav using Guid(8cf4449f1f1883345a8dab6eab4db240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1b71293d82650beae9c947998513c1') in 0.079593 seconds 
+  Import took 0.095242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001148 seconds.
+  path: Assets/Action RPG Music 1.3/14short2NL.wav
+  artifactKey: Guid(f69cee133fe2a4a40ae067ad459d7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14short2NL.wav using Guid(f69cee133fe2a4a40ae067ad459d7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f016520119bf4805a56fa7012c501da9') in 0.092351 seconds 
+  Import took 0.113551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000965 seconds.
+  path: Assets/Action RPG Music 1.3/14short1NL.wav
+  artifactKey: Guid(0ba3784f4c1d5df4689af04bc722b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14short1NL.wav using Guid(0ba3784f4c1d5df4689af04bc722b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0695998779060cc9b81a953a29a50fd') in 0.066437 seconds 
+  Import took 0.083237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Action RPG Music 1.3/14short3NL.wav
+  artifactKey: Guid(aaa9345fc5b00ea40b9cb0abb4bfa928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14short3NL.wav using Guid(aaa9345fc5b00ea40b9cb0abb4bfa928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8a2da2a4f90ffd067b742637091381') in 0.047465 seconds 
+  Import took 0.056941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Action RPG Music 1.3/14secret1NL.wav
+  artifactKey: Guid(fbf66c7552cfb5c4dae8f28d2ed99d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14secret1NL.wav using Guid(fbf66c7552cfb5c4dae8f28d2ed99d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d923861bead9976cbed4d7f8afcb1f') in 0.039269 seconds 
+  Import took 0.047401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Action RPG Music 1.3/14levelup2NL.wav
+  artifactKey: Guid(13f8e7c2c1b7bb6429222c409839bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14levelup2NL.wav using Guid(13f8e7c2c1b7bb6429222c409839bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398d3ad0ec4a92ac86da9116fd8da6b4') in 0.039806 seconds 
+  Import took 0.049454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Action RPG Music 1.3/14levelup1NL.wav
+  artifactKey: Guid(4954413055e67524188f589cd74d053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14levelup1NL.wav using Guid(4954413055e67524188f589cd74d053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf51f693fd30a8b61af59054f5cbbfa') in 0.039218 seconds 
+  Import took 0.050019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3760ms)
+		BeginReloadAssembly (411ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (3090ms)
+			LoadAssemblies (380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1095ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (808ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 10.084400 ms (FindLiveObjects: 0.464200 ms CreateObjectMapping: 0.227700 ms MarkObjects: 8.510500 ms  DeleteObjects: 0.878700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 671.543367 seconds.
+  path: Assets/Action RPG Music 1.3/14short4NL.wav
+  artifactKey: Guid(24fdb4b180e2df947885e5c3cb91b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Action RPG Music 1.3/14short4NL.wav using Guid(24fdb4b180e2df947885e5c3cb91b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55f36086f08631abd6da6722235bf96') in 0.209367 seconds 
+  Import took 0.221860 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3475ms)
+		BeginReloadAssembly (390ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2819ms)
+			LoadAssemblies (364ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1042ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1025ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2078.
+Total: 13.820700 ms (FindLiveObjects: 0.694300 ms CreateObjectMapping: 0.319200 ms MarkObjects: 12.194700 ms  DeleteObjects: 0.602700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
